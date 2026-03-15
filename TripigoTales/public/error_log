@@ -1,0 +1,113 @@
+[01-Feb-2026 06:22:21 UTC] PHP Warning:  include(/home4/tripid7b/public_html/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home4/tripid7b/public_html/vendor/composer/ClassLoader.php on line 571
+[01-Feb-2026 06:22:21 UTC] PHP Warning:  include(): Failed opening '/home4/tripid7b/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/tripid7b/public_html/vendor/composer/ClassLoader.php on line 571
+[01-Feb-2026 06:22:21 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#6 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home4/tripid7b/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#5 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home4/tripid7b/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[03-Feb-2026 11:11:27 UTC] PHP Warning:  include(): Failed opening '/home4/tripid7b/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/tripid7b/public_html/vendor/composer/ClassLoader.php on line 576
+[03-Feb-2026 11:11:27 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#6 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home4/tripid7b/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#5 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home4/tripid7b/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[03-Feb-2026 11:12:46 UTC] PHP Warning:  include(): Failed opening '/home4/tripid7b/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/tripid7b/public_html/vendor/composer/ClassLoader.php on line 576
+[03-Feb-2026 11:12:46 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#6 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home4/tripid7b/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#5 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home4/tripid7b/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[03-Feb-2026 11:13:27 UTC] PHP Warning:  include(): Failed opening '/home4/tripid7b/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/tripid7b/public_html/vendor/composer/ClassLoader.php on line 576
+[03-Feb-2026 11:13:27 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#6 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home4/tripid7b/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#1 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#2 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#3 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#5 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home4/tripid7b/public_html/public/index.php(49): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home4/tripid7b/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
